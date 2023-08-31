@@ -1,0 +1,5 @@
+Example (Lab 1):
+Purpose - Define a class to hold messages
+Input - Is a string
+Process - Set an attribute to the message provided by the client
+Output - Print message when invoking getMsg and setMsg
