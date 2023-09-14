@@ -24,4 +24,13 @@ public class ArrayDemo6 {
 }
 
 class BankAccount {
+	private double balance;
+	
+	public BankAccount(double num) {
+		balance = num;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
 }
