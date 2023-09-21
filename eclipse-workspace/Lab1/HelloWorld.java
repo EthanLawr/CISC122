@@ -1,8 +1,4 @@
 /**
- * 
- */
-
-/**
  * @author lawrencee86310
  *
  */
@@ -10,7 +6,7 @@
 /* Psuedo-code
  * Create a HelloWorld class in which another class is called to define a message for output.
  * Create an App class that defines and sets a message fit for output ("Hello World"). 
- * */
+ */
 
 public class HelloWorld {
 
@@ -31,7 +27,7 @@ public class HelloWorld {
 }
 
 class App {
-	// Default message of App
+	// Default message of App ("Place-Holder")
 	String message = "Place-Holder";
 	// Returns a string to display message from App
 	public String getMessage() {
