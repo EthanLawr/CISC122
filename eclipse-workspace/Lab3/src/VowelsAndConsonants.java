@@ -1,7 +1,9 @@
 import java.util.Scanner;  // Import the Scanner class
 import java.util.ArrayList; // Import the ArrayList class
 import java.util.Arrays;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 public class VowelsAndConsonants {
 	private static String chosenWord = "";
 	public static void main(String[] args) {
@@ -92,8 +94,10 @@ class Lotty {
 	}
 	
 	static int vowelCount(String w) {
-		String[] word = Pattern.compile("^[a-zA-Z]+?$").split(w);
-		System.out.println(Arrays.toString(word));
+		//String[] matches = match("aa11bb22", "/(\\d+)/g" ); // => ["11", "22"]
+
+		// make into array
+		Matcher word = Pattern.compile("^[a-zA-Z]$").matcher(w);
 		int vowelCount = 0;
 		for (int i = 0; i < word.length; i++) {
 			if (vowels.contains(word[i])) vowelCount += 1;
