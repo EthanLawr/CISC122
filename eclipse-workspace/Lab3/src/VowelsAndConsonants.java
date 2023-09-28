@@ -1,8 +1,5 @@
 import java.util.Scanner;  // Import the Scanner class
 import java.util.ArrayList; // Import the ArrayList class
-import java.util.Arrays;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /*
  * Psuedo-Code
