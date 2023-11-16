@@ -1,3 +1,21 @@
+/* Must make 4 classes.
+ * 
+ * Class 1 must be Employee. Requires a name, id, and hire date with getters and setters. 
+ * ID must be in XXX-Y format where X is a number and Y is a letter.
+ * 
+ * Class 2 must be Production Worker. Requires a shift and payrate with getters and setters.
+ * Shift must be either 1 or 2, where 1 is day shift and 2 is night shift.
+ * Payrate must be a double
+ * 
+ * Class 3 must be Shift Supervisor. This extends employee and must include a bonus and salary with getters and setters.
+ * 
+ * Class 4 must be Team Leader. This extends Production Worker and must include a bonus, Training Requirement, and Training Completion
+ *  with setters and getters.
+ *  
+ * All classes need a constructor and must have their contents and methods displayed in a program.
+ * While it is requested that each have their own program I have taken the liberty to make them be in one program to reduce 
+ *  the complexity of the screenshots and UML when turning the assignment in.
+ */
 
 public class EmployeeAndProductionWorker {
 
