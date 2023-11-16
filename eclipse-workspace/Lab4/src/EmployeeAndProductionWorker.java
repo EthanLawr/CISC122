@@ -76,18 +76,6 @@ public class EmployeeAndProductionWorker {
 		System.out.printf("\nShift: %s\tPayRate: $%s\tMonthly Bonus: $%s\tTraining Req: %s\tTraining Done: %s\n-----------------------------------------------------------\n", 
 				test4.getShift(), test4.getPayRate(), test4.getMBonus(), test4.getTrainingReq(), test4.getTrainingComplete());
 		// Complete
-		
-		/*ShiftSupervisor staff = new ShiftSupervisor(30000, 10000, "Jack", "333-A", "12/12/1996");
-		System.out.printf("SuperVisor Test\nName: %s\nID: %s\nHire Date: %s\nSalary: $%s\nYearly Bonus: $%s", 
-				staff.getName(), staff.getId(), staff.getHireDate(), staff.getSalary(), staff.getBonus());
-		ShiftSupervisor staff = new ShiftSupervisor(30000, 10000, "Jack", "333-A", "12/12/1996");
-		System.out.printf("SuperVisor Test\nName: %s\nID: %s\nHire Date: %s\nSalary: $%s\nYearly Bonus: $%s", 
-				staff.getName(), staff.getId(), staff.getHireDate(), staff.getSalary(), staff.getBonus());
-		
-		ShiftSupervisor staff = new ShiftSupervisor(30000, 10000, "Jack", "333-A", "12/12/1996");
-		System.out.printf("SuperVisor Test\nName: %s\nID: %s\nHire Date: %s\nSalary: $%s\nYearly Bonus: $%s", 
-				staff.getName(), staff.getId(), staff.getHireDate(), staff.getSalary(), staff.getBonus());
-				*/
 	}
 
 }
