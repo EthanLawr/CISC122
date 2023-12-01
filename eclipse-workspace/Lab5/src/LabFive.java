@@ -31,8 +31,7 @@ public class LabFive {
 	        KeyGenerator keygenerator = KeyGenerator.getInstance("DES");
 	        SecretKey myDesKey = keygenerator.generateKey();
 	        // Creating object of Cipher
-	        Cipher desCipher;
-	        desCipher = Cipher.getInstance("DES");
+	        Cipher desCipher = Cipher.getInstance("DES");
 	        byte[] text = oldText.getBytes("UTF8");
 	        
 	        // Encryption
