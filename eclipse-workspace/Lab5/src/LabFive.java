@@ -42,9 +42,9 @@ public class LabFive {
 	        System.out.println(newText);
 	        
 	        //Encrypted File Output
-	        FileWriter myWriter = new FileWriter("output.txt");
-	        myWriter.write(newText);
-	        myWriter.close();
+	        FileWriter outputWriter = new FileWriter("output.txt");
+	        outputWriter.write(newText);
+	        outputWriter.close();
 	        
 	        // Decrypted text to prove its the same format
 	        desCipher.init(Cipher.DECRYPT_MODE, myDesKey);
